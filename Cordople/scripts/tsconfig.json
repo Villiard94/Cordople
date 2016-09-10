@@ -1,11 +1,22 @@
 {
-    "compilerOptions": { 
-        "noImplicitAny": false,
-        "noEmitOnError": true,
-        "removeComments": false,
-        "sourceMap": true,
-        "inlineSources": true,
-        "out": "www/scripts/appBundle.js",
-        "target": "es5"
-    }
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "out": "www/scripts/appBundle.js",
+    "target": "es5",
+    "module": "system" /*,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "../www/scripts/"*/
+  } /*,
+  "filesGlob": [ "scripts//*.ts", "scripts/typings//*.d.ts" ],
+  "exclude": [
+    "../docs/md/node\_modules",
+    "../docs/md/www"
+  ]
+    */
 }
