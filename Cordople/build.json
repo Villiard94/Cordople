@@ -1,10 +1,10 @@
 {
      "android": {
          "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
+             "keystore": "platforms/android/release-key.keystore",
+             "storePassword": "51m0NV1LL14Rd",
+             "alias": "villiard",
+             "password" : "51m0NV1LL14Rd",
              "keystoreType": ""
          }
      }
