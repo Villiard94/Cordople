@@ -6,17 +6,16 @@
     "sourceMap": true,
     "inlineSources": true,
     "out": "www/scripts/appBundle.js",
-    "target": "es5",
-    "module": "system" /*,
+    "target": "es6",
+    "module": "system" ,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "outDir": "../www/scripts/"*/
-  } /*,
+    "outDir": "../www/scripts/"
+  },
   "filesGlob": [ "scripts//*.ts", "scripts/typings//*.d.ts" ],
   "exclude": [
-    "../docs/md/node\_modules",
+    "../docs/md/node_modules",
     "../docs/md/www"
   ]
-    */
 }

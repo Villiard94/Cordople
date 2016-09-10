@@ -41,7 +41,17 @@
         <script src="cordova.js"></script>
         <!-- platform overrides includes system-polyfills for mobile. platformOverrides.js is located in ./merges folder -->
         <script src="scripts/platformOverrides.js"></script>
-        <script src="scripts/lib/systemjs/system.src.js"></script>  
+        <!--<script src="scripts/lib/systemjs/system.src.js"></script>-->
+        <!-- Add mobile override for es6-shims when using es5 JavaScript.  This was a problem with Angular2 in the past and seems to be fixed.    -->
+        <script src="scripts/mobiledeviceoverride.js"></script>
+        <!-- adding systemjs -->
+        <script src="scripts/lib/systemjs/dist/system.src.js"></script>
+        <script src="scripts/config.js"></script>
+        <!-- Add Angular2 -->
+        <script src="scripts/lib/angular2/bundles/angular2-polyfills.js"></script>
+        <!-- RX filles in the gap since Angular relies on Observables.  Observables are native to es2016 -->
+        <script src="scripts/lib/rxjs/bundles/Rx.js"></script>
+        <script src="scripts/lib/angular2/bundles/angular2.dev.js"></script>
     </head>
     <body>
         <div class="app">

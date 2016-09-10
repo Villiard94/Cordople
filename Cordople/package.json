@@ -3,12 +3,13 @@
     "version": "1.0.0",
     "private": true,
   "dependencies": {
-    "systemjs": "0.19.38"
+    "systemjs": "0.19.38",
+    "angular2": "2.0.0-beta.17" 
   },
   "devDependencies": {
     "gulp-tslint": "6.1.1",
     "gulp-sass": "2.3.2",
     "gulp-autoprefixer": "3.1.1",
-    "es6-promise":  "3.2.1"
+    "es6-promise": "3.2.1"
   }
 }
