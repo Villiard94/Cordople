@@ -1,7 +1,7 @@
 {
      "android": {
          "release": {
-             "keystore": "plats/droid/release-key.keystore",
+             "keystore": "release-key.keystore",
              "storePassword": "51m0NV1LL14Rd",
              "alias": "villiard",
              "password" : "51m0NV1LL14Rd",

@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "createjs-lib": "registry:dt/createjs-lib#0.0.0+20160317120654",
+    "preloadjs": "registry:dt/preloadjs#0.6.0+20160602132935",
+    "soundjs": "registry:dt/soundjs#0.6.0+20160317120654",
+    "systemjs": "registry:dt/systemjs#0.19.29+20160702105636"
+  }
+}
